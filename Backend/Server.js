@@ -54,7 +54,7 @@ app.get('/', async(req, res) => {
 app.use(bodyParser.json());
 
 const URL = process.env.MONGODB_URL;
-mongoose.connect(mongodb+srv://Lakchika:Lakchika123@hwh.y1eolby.mongodb.net/HWH?retryWrites=true&w=majority&appName=HWH,{
+mongoose.connect(mongodb+srv://Lakchika:Lakchika@2001@hwh.hc0obik.mongodb.net/HWH?retryWrites=true&w=majority&appName=HWH,{
     useNewUrlParser: true,
 });
 const connection = mongoose.connection;
